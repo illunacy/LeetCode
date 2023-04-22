@@ -1,0 +1,15 @@
+# class Solution:
+#     def removeDuplicates(self, nums: List[int]) -> int:
+#         unique = []
+#         extra = []
+#         for x in nums:
+#             if x not in unique:
+#                 unique.append(x)
+#             else:
+#                 extra.append(x)
+#         k = len(unique)
+#         nums = unique + extra
+#         return k and nums
+
+
+
